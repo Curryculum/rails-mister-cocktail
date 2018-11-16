@@ -11,6 +11,29 @@
   </head>
 
   <body>
+    <div class="navbar-wagon">
+      <!-- Logo -->
+      <a href="/" class="navbar-wagon-brand">
+        <img src="https://previews.123rf.com/images/dstarky/dstarky1701/dstarky170100422/69262793-icona-del-cocktail-o-logo-in-stile-linea-moderna-pittogramma-di-contorno-nero-di-alta-qualit%C3%A0-per-la-p.jpg" alt="logo">
+      </a>
+
+      <!-- Right Navigation -->
+      <div class="navbar-wagon-right hidden-xs hidden-sm">
+
+        <a href="" class="navbar-wagon-item navbar-wagon-link">My Cocktails</a>
+        <a href="" class="navbar-wagon-item navbar-wagon-link">About us</a>
+        <a href="" class="navbar-wagon-item navbar-wagon-link">Contact</a>
+
+        <!-- Profile picture with dropdown list -->
+        <div class="navbar-wagon-item">
+        </div>
+      </div>
+
+      <!-- Dropdown appearing on mobile only -->
+      <div class="navbar-wagon-item hidden-md hidden-lg">
+      </div>
+    </div>
+
     <%= yield %>
     <%= javascript_include_tag "application" %> <!-- from app/assets/javascripts/application.js -->
      <%= javascript_pack_tag "application" %>    <!-- from app/javascript/packs/application.js -->
